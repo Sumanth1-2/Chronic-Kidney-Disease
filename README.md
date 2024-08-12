@@ -36,4 +36,17 @@ A comparison was made among the algorithms to identify the most effective model 
 
 **Conclusion:**
 
-The study successfully demonstrated the application of machine learning algorithms in diagnosing Chronic Kidney Disease at an early stage. Among the models tested, CatBoost achieved the highest accuracy, making it the most effective tool for CKD prediction in this study. Ensemble methods like AdaBoost and Gradient Boosting also performed well, showing their potential in healthcare applications. The identification of key features such as hemoglobin, albumin, and specific gravity played a crucial role in enhancing the predictive accuracy of the models. This approach offers a promising direction for early intervention and improved patient care.
+This study successfully applied various machine learning algorithms to diagnose Chronic Kidney Disease (CKD) at an early stage, focusing on key features such as hemoglobin, albumin, and specific gravity. The models were evaluated based on their accuracy, and the results are as follows:
+
+**CatBoost:** Achieved the highest accuracy with a perfect score of 1.000 (100%).
+**AdaBoost Classifier**: Also performed exceptionally well, with an accuracy of 0.9917 (99.17%).
+**Gradient Boosting Classifier**: Matched the AdaBoost with an accuracy of 0.9917 (99.17%).
+**Stochastic Gradient Boosting**: Scored slightly lower with an accuracy of 0.9833 (98.33%).
+**Extra Trees Classifier**: Also achieved an accuracy of 0.9833 (98.33%).
+**Decision Tree Classifier**: Showed strong performance with an accuracy of 0.9750 (97.50%).
+**XGBoost:** Matched the Decision Tree Classifier with an accuracy of 0.9750 (97.50%).
+**K-Nearest Neighbors (KNN):** Had the lowest accuracy among the models, scoring 0.7083 (70.83%).
+
+These results demonstrate that ensemble methods like CatBoost, AdaBoost, and Gradient Boosting are particularly effective in accurately predicting CKD. The perfect accuracy achieved by CatBoost highlights its potential as a powerful tool for early CKD diagnosis. The identification of the most significant features and the application of these algorithms offer a promising approach to early intervention, which could greatly improve patient outcomes in healthcare settings.
+
+
